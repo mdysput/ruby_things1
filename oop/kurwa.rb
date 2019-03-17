@@ -13,6 +13,7 @@ class Foo
 
   def string_sorted_part(argument, v)
 
+
     zmienne= argument.split("").sort!
     zmienne.first(v).join
   end
